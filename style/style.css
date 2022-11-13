@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2E948A;
+}
+
+.logo-header{
+  width: 150px;
+  padding: 15px 0px 15px 30px;
+}
+
+.nav {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FDFDFD;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  .logo-header{
+    width: 240px;
+    padding: 20px 60px;
+  }
+}
