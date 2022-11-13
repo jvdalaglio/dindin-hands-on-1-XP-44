@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Questrial&display=swap');
 
 * {
   margin: 0;
@@ -149,7 +150,7 @@ header {
   width: auto;
 }
 
-#card-title{
+.card-title{
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 700;
@@ -158,6 +159,54 @@ header {
   padding-left: 10px;
 
   color: #009688;
+}
+
+.section-3 {
+  background-color: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #009688;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+#logo-footer {
+  width: 130px;
+  height: 46px;
+  padding-right: 10px;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-button {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 12px;
+  border: #FDFDFD solid 2px;
+  border-radius: 30px;
+  color: #FDFDFD;
+  width: auto;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
 }
 
 @media only screen and (max-width:320px) {
